@@ -14,10 +14,14 @@ $cars[]='Aston Martin';
 
 // echo $cars[4];
 // echo count($cars);
- print_r($cars);
+// print_r($cars);
 
-var_dump($cars);
+// var_dump($cars);
 
+// Associate arrays
 
+$people = array('Brad' => 35, 'Patrice' => 42, 'Will' => 74);
+
+echo $people['Patrice'];
 
 ?> 
