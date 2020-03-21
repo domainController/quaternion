@@ -3,7 +3,6 @@
 /* I've created a hard link of this file pointing to /var/www/html/array.php
 */
 
-$shells = array('beta SL', 'zeta SL', 'atom', 'stretchrainshadow', 'nano light');
 
 // echo $shells[1];
 
@@ -22,6 +21,56 @@ $cars[]='Aston Martin';
 
 $people = array('Brad' => 35, 'Patrice' => 42, 'Will' => 74);
 
-echo $people['Patrice'];
+// echo $people['Patrice'];
+// print_r($people);
+//var_dump($people);
 
+$shells = array(
+	array('beta SL', 300, flux),
+	array('atom', 300, flux),
+	array('stretchrainshadow', 150, willow green),
+	 );
+
+// $shells = array('beta SL', 'zeta SL', 'atom', 'stretchrainshadow', 'nano light');
+
+echo $shells[1][0];
 ?> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
